@@ -133,13 +133,13 @@ h3{
 	position: relative;
 	top:650px;
 }
-.lamp-bg .col-lg-3:nth-child(2) span{
+.lamp-bg .col-3:nth-child(2) span{
 	top:580px;
 }
-.lamp-bg .col-lg-3:nth-child(3) span{
+.lamp-bg .col-3:nth-child(3) span{
 	top:520px;
 }
-.lamp-bg .col-lg-3:nth-child(4) span{
+.lamp-bg .col-3:nth-child(4) span{
 	top:450px;
 }
 .lamp-bg span::before{
@@ -308,7 +308,10 @@ footer{
 		font-size:15px;
 	}
 	.inst img{
-		width: 95%;
+		position: relative;
+		left: -60px;
+		width: 120%;
+		margin-top: 30px;
 	}
 }
 @media (max-width: 992px){
