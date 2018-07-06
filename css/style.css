@@ -243,6 +243,7 @@ h3{
 .center i{
 	color: #ea7e1e;
 	font-size:20px;
+	cursor: pointer;
 }
 .center::after{
 	content: ' ';
@@ -318,13 +319,6 @@ footer{
 	.bg img{
 		width: 95%;
 	}
-	.bg span{
-		left:0px;
-		top: -80px;
-		font-size:25px;
-		width: 290px;
-		display: block;
-	}
 	.inst img{
 		position: relative;
 		left: -60px;
@@ -335,6 +329,12 @@ footer{
 @media (max-width: 992px){
 	.cart span{
 		display: none;
+	}
+	.bg span{
+		left:0px;
+		top: -80px;
+		width: 290px;
+		display: block;
 	}
 	.cart i{
 		float:right;
