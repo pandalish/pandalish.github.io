@@ -222,6 +222,7 @@ h3{
 }
 .bg i{
 	margin-left: 10px;
+	position: absolute;
 }
 .center{
 	width: 240px;
@@ -293,4 +294,49 @@ footer{
 }
 .footer .col-lg-12 img:first-child{
 	margin-left: 0px;
+}
+@media (max-width: 1200px){
+	.white ul>li{
+		list-style: none;
+	}
+	.bg img{
+		width: 95%;
+	}
+	.bg span{
+		left:0px;
+		top: -30px;
+		font-size:15px;
+	}
+	.inst img{
+		width: 95%;
+	}
+}
+@media (max-width: 992px){
+	.cart span{
+		display: none;
+	}
+	.cart i{
+		float:right;
+		position: relative;
+		top: -43px;
+	}
+	.cart-dop{
+		position: relative;
+		left: 50vw;
+		top: -60px;	
+	}
+	.gray{
+		display: none;
+	}
+	.truck,.card{
+		display: none;
+	}
+	.blue-bg img{
+    margin-top: 20px;
+	margin-left: 20px;
+	}
+	.blue-bg .text {
+    margin-left: 20px;
+    margin-top: 20px;
+	}
 }
