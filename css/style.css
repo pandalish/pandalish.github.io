@@ -57,6 +57,10 @@ body{
   	color: #00aeef;
   	font-style: bold;
 }
+.cart:hover{
+	cursor: pointer;
+	color:red;
+}
 .cart-dop{
 	position: absolute;
 	z-index: 1;
