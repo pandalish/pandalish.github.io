@@ -171,6 +171,11 @@ h3{
 	background: #eef2f4;
 	width: 93%;
 	height: 1258px;
+	display: none;
+}
+.orange:hover ~ .dop,
+.dop:hover{
+	display: block;
 }
 .dop-menu{
 	margin-left: 90px;
