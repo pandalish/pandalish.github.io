@@ -228,11 +228,11 @@ h3{
 	position: relative;
 	top: -50px;
 	left: 30px;
-	width: 200px;
+	width: 210px;
 }
 .bg i{
-	margin-left: 10px;
-	position: absolute;
+	/*margin-left: 10px;*/
+	/*position: absolute;*/
 }
 .center{
 	width: 240px;
