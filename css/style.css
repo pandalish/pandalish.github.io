@@ -1,0 +1,286 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.gray{
+	background-color: #dfdfdf;
+}
+.gray .container{
+	height: 112px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.icon{
+	display: flex;
+	align-items: center;
+}
+.icon i{
+	margin-right: 10px;
+	font-size: 25px;
+	color: rgb(0, 174, 239);
+	line-height: 1.68;
+}
+.icon span{
+  font-size: 17px;
+  color: rgb(41, 41, 41);
+  line-height: 1.471;
+}
+.white .container{
+	height: 130px;
+}
+.white ul{
+	margin-top: 30px;
+	display:flex;
+	justify-content: space-between;
+}
+.white li{
+	color: #00aeef;
+}
+.white span{
+	color:#292929;
+	font-size: 17px;
+	margin-left: 10px;
+}
+.cart{
+	margin-top: 24px;
+	font-size: 22px;
+	color: #00aeef;
+	position: relative;
+	left:60px;
+}
+.cart span{
+	font-size: 18px;
+  	color: #00aeef;
+  	font-style: bold;
+}
+.cart-dop{
+	position: absolute;
+	z-index: 1;
+	background: #ffffff;
+	width: 288px;
+	left: -100px;
+	top: 30px;
+	border: 1px solid #dfdfdf;
+	padding:20px;
+}
+h3{
+	padding-bottom: 5px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.cart-dop span:first-child{
+	margin-top: 5px;
+}
+.it{
+	display:flex;
+	justify-content: space-between;
+}
+.it:last-child{
+	padding-bottom: 5px;
+	border-bottom: 1px solid #dfdfdf;
+}
+.item{
+	margin-top: 10px;
+	position: relative;
+	display:flex;
+}
+.item p{
+	margin-left: 10px;
+}
+.item .sum{
+	position: absolute;
+	top:40px;
+	left:185px;
+}
+.iconz{
+	margin-top: 20px;
+}
+.iconz i{
+	color:#1eb3ed;
+}
+.kk{
+	display:flex;
+	justify-content: space-between;
+}
+.order{
+	border-bottom: 1px solid #dfdfdf;
+	padding-bottom: 10px;
+}
+.cart-dop button{
+	background: #e6791d;
+	width: 100%;
+	margin-top: 20px;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	border:none;
+}
+.lamp-bg{
+	background: url(../img/patrick-tomasso-406271-unsplash.png);
+	height: 772px;
+}
+.lamp-bg span{
+	font-size: 20px;
+	color: #fff;
+	position: relative;
+	top:650px;
+}
+.lamp-bg .col-lg-3:nth-child(2) span{
+	top:580px;
+}
+.lamp-bg .col-lg-3:nth-child(3) span{
+	top:520px;
+}
+.lamp-bg .col-lg-3:nth-child(4) span{
+	top:450px;
+}
+.lamp-bg span::before{
+	content:' ';
+	background-color: #00aeef;
+	width: 8px;
+	height: 50px;
+	position: absolute;
+	left: -20px;
+}
+.main{
+	margin-top: 40px;
+}
+.orange{
+	background: #ea7e1e;
+	font-size: 35px;
+  	color: #fff;
+}
+.orange i{
+	margin-left: 10px;
+}
+.orange span{
+	font-size:18px;
+	margin-left: 20px;
+}
+.dop{
+	position: absolute;
+	z-index: 1;
+	background: #eef2f4;
+	width: 93%;
+	height: 1258px;
+}
+.dop-menu{
+	margin-left: 90px;
+}
+.dop-menu p{
+	margin-bottom: 10px;
+	font-size: 13px;
+}
+.dop-menu li{
+	margin-bottom: 10px;
+	font-size: 12px;
+	list-style: none;
+	margin-left: 20px;
+}
+.dop-menu li:hover,
+.dop-menu p:hover{
+	color: #ea7e1e;
+}
+.truck,.orange,.card{
+  	display:flex;
+  	align-items: center;	
+}
+.truck i,
+.card i{
+	color: #ea7e1e;
+	font-size:35px;
+}
+.truck span,
+.card span{
+	font-size: 18px;
+	margin-left: 10px;
+}
+.zag{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-size: 26px;
+	color: #292929;
+}
+.bg span{
+	position: relative;
+	top: -50px;
+	left: 30px;
+	width: 200px;
+}
+.bg i{
+	margin-left: 10px;
+}
+.center{
+	width: 240px;
+	margin:auto;
+	position: relative;
+}
+.center span,
+.center i{
+	color: #ea7e1e;
+	font-size:20px;
+}
+.center::after{
+	content: ' ';
+	width: 100%;
+	height: 1px;
+	background: #ea7e1e;
+	position: absolute;
+	top:100%;
+	left: 0;
+}
+.blue-bg{
+	background: #00aeef;
+	height: 221px;
+}
+.blue-bg img{
+	margin-top: 50px;
+	margin-left: 50px;
+}
+.blue-bg .text{
+	margin-left: 50px;
+	margin-top: 20px;
+	color: #fff;
+	font-size:18px;
+}
+footer{
+	background: #585858;
+	height: 423px;
+	margin-top: 40px;
+}
+.footer{
+	position: relative;
+	top: 50px; 
+	color: #fff;
+}
+.footer a{
+	text-decoration: none;
+	color: #fff;
+	font-size:15px;
+}
+.footer li{
+	margin-top: 10px;
+	list-style: none;
+}
+.footer p{
+	margin-bottom: 20px;
+}
+.info{
+	text-align: right;
+}
+.soc{
+	margin-top: 30px;
+}
+.soc img{
+	margin-left: 30px;
+}
+.footer .col-lg-12 img{
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.footer .col-lg-12 img:first-child{
+	margin-left: 0px;
+}
